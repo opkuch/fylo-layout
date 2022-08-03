@@ -3,7 +3,7 @@
     <hero-cmp />
     <pros />
     <bottom-hero />
-    <recommend-list />
+    <review-list />
     <early-access />
   </section>
 </template>
@@ -11,10 +11,10 @@
 import heroCmp from '../components/hero.cmp.vue'
 import bottomHero from '../components/bottom-hero.vue'
 import pros from '../components/pros.vue'
-import RecommendList from '../components/recommend-list.cmp.vue'
+import reviewList from '../components/review-list.vue'
 import earlyAccess from '../components/early-access.vue'
 export default {
-  components: { heroCmp, pros, bottomHero, RecommendList, earlyAccess },
+  components: { heroCmp, pros, bottomHero, reviewList, earlyAccess },
 }
 </script>
 <style></style>
