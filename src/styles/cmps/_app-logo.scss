@@ -1,0 +1,11 @@
+
+.app-logo-container {
+    img {
+        max-height: 52px;
+    }
+    @media (max-width: 375px) {
+     img {
+        max-height: 28px;
+     }   
+    }
+}

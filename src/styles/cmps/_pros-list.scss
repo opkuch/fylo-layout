@@ -1,0 +1,37 @@
+.pros-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .pros-wrapper {
+    max-width: 878px;
+    margin-block-start: rem(120px);
+    display: grid;
+    grid-template-columns: rem(350px) rem(350px);
+    color: $clr8;
+    justify-content: center;
+    gap: rem(120px);
+  }
+  .pro-preview {
+    text-align: center;
+    h3 {
+      font-size: rem(20px);
+      margin-bottom: 0;
+      font-weight: 700;
+      text-align: center;
+    }
+    p {
+      margin-top: 0;
+      line-height: 21px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    justify-content: flex-start;
+    .pros-wrapper {
+      display: flex;
+      flex-direction: column;
+      max-width: 300px;
+      justify-content: flex-start;
+    }
+  }
+}

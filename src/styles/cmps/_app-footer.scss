@@ -1,0 +1,66 @@
+footer {
+  background-color: $clr3;
+  color: $clr8;
+  font-family: OpenSans;
+
+  .footer-icon {
+    position: relative;
+    top: 3px;
+  }
+
+  .footer-wrapper {
+    min-height: 517px;
+    padding-inline-start: 3rem;
+  }
+  .footer-content {
+    margin-block-start: 2rem;
+    gap: 10rem;
+  }
+  .company-location {
+    p {
+      display: inline-block;
+      margin: 0;
+    }
+  }
+  .contact-us {
+    min-height: 64px;
+    min-width: 170.5px;
+  }
+
+  .app-links {
+    ul {
+      display: grid;
+      grid-template-columns: 136px 98px;
+      grid-template-rows: 1fr 1fr;
+      row-gap: 1.5rem;
+    }
+  }
+  .social-links {
+    gap: 1rem;
+    img {
+      height: 32px;
+      width: 32px;
+      filter: invert(98%) sepia(42%) saturate(2%) hue-rotate(152deg)
+        brightness(108%) contrast(100%);
+    }
+  }
+  @media (max-width: 375px) {
+    display: flex;
+    flex-direction: column;
+
+    .footer-content {
+      gap: 3rem;
+      flex-direction: column;
+    }
+    .app-logo-container {
+        margin-block-start: 4rem;
+        img {
+            max-height: 52px;
+        }
+    }
+
+    .social-links {
+        justify-content: center;
+    }
+  }
+}

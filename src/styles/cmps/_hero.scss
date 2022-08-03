@@ -1,0 +1,45 @@
+.hero-container {
+    margin-block-start: rem(30px);
+    .hero-img {
+        max-width: 720px;
+        height: 534px;
+    }
+    @media (max-width: 375px) {
+        max-width: 315px;
+        
+        .hero-img {
+            max-width: 340px;
+            max-height: 200px;
+        }
+    }
+
+    .hero-content {
+        color: $clr8;
+        h1 {
+            font-size: rem(40px);
+            font-weight: 700;
+            line-height: 60px;
+            text-align: center;
+            max-width: 734px;
+        }
+
+        p {
+            font-size: rem(20px);
+            line-height: 30px;
+            text-align: center;
+            max-width: 589px;
+        }
+    }
+
+    .hero-actions {
+        button {
+            background: linear-gradient(152deg, #63e1d9 0%, #34a0cd 100%);
+            border-radius: 28px;
+            min-width: 280px;
+            min-height: 56px;
+            font-size: rem(16px);
+            color: $clr8;
+            font-weight: 700;
+        }
+    }
+}

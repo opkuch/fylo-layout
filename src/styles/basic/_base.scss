@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 14px;
+}
+body {
+    background: $clr2;
+    margin: 0;
+}
+
+h1,h2,h3 {
+    font-family: Raleway;
+}
+
+p {
+    font-family: OpenSans;
+}
+
+button {
+    background: linear-gradient(152deg, #63e1d9 0%, #34a0cd 100%);
+    border-radius: 28px;
+    font-size: rem(16px);
+    color: $clr8;
+    font-weight: 700;
+    cursor: pointer;
+
+}

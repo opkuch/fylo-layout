@@ -1,0 +1,60 @@
+.early-access-wrapper {
+    position: absolute;
+    top: 2680px;
+    left: 50%;
+    transform: translate(-50%);
+    .early-access {
+        background-color: $clr1;
+        max-width: 863px;
+        color: $clr8;
+        padding: 3rem;
+        h1 {
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 48px;
+            margin-top: 0;
+        }
+
+        p {
+            text-align: center;
+            margin-block-end: 3rem;
+        }
+    }
+
+    label {
+        gap: rem(20px);
+        input {
+            width: 100%;
+            height: 48px;
+            border-radius: 24px;
+        }
+        input::placeholder {
+            color: #c0c0c0;
+            font-family: OpenSans;
+            font-size: 12px;
+            font-weight: 400;
+            padding-inline-start: 2rem;
+        }
+        button {
+            width: 200px;
+            height: 48px;
+        }
+    }
+
+    @media (max-width: 375px) {
+        position: static;
+        transform: none;
+        .early-access {
+            max-width: 340px;
+            padding: 1rem;
+            text-align: center;
+            label {
+                flex-direction: column;
+                width: 100%;
+                button {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

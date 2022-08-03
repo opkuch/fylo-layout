@@ -1,0 +1,47 @@
+.recommend-list {
+  margin-block-start: 5rem;
+  margin-block-end: 26.5rem;
+  display: flex;
+  color: $clr8;
+  gap: rem(40px);
+  justify-content: center;
+  .recommendation {
+    max-width: 360px;
+    border-radius: 3.93px;
+    background: #202a3c;
+    padding: 2rem;
+    font-family: OpenSans;
+    z-index: 1;
+    .member-details {
+      margin-inline-start: 1rem;
+      h3 {
+        margin: 0;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 12px;
+        letter-spacing: 0.5px;
+      }
+      span {
+        font-size: 7px;
+        font-weight: 400;
+        line-height: 10px;
+        letter-spacing: 0.5px;
+      }
+    }
+  }
+  .quotes-img {
+    position: absolute;
+    left: 175px;
+    top: 2280px;
+  }
+  @media (max-width: 375px) {
+    flex-direction: column;
+    margin-block-end: 8rem;
+    .quotes-img {
+      position: absolute;
+      left: 15px;
+      top: 2780px;
+    }
+  
+  }
+}
