@@ -1,5 +1,5 @@
 <template>
-  <footer class="">
+  <footer>
     <div class="footer-wrapper flex flex-column justify-center">
       <app-logo />
       <div class="flex footer-content">
@@ -38,6 +38,7 @@
 </template>
 <script>
 import appLogo from './app-logo.cmp.vue'
+
 export default {
   components: { appLogo },
 }
