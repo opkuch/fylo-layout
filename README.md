@@ -7,4 +7,4 @@ Github pages: https://opkuch.github.io/fylo-layout/#/
 Practicing front-end pixel perfect design in minimum time
 
 ## Made with
-Vue.js, SCSS, HTML
+Vue.js, SCSS
